@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644522550036",
+    "project_id": "crypto-j-comp",
+    "storage_bucket": "crypto-j-comp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644522550036:android:c3dc47c7cbd05128399801",
+        "android_client_info": {
+          "package_name": "com.example.cryptojcomp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644522550036-olbl46sfrum26v4o2t09rv7ll2b771jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVuivs09bcPHoD0CYuxosK7WYq9JDkj6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644522550036-olbl46sfrum26v4o2t09rv7ll2b771jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

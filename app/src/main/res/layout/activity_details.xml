@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="RSA Algorithm"
+                android:textColor="#0277BD"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Because of expanding web based business movement these days, there is a requirement for some encryption method to guarantee security and an approach to guarantee that the client's information are safely put away in the database. In this way the framework presents RSA for this reason. The RSA calculation is a sort of lopsided encryption calculation which showed up in 1978. The calculation is open key encryption calculation which is a broadly acknowledged and actualized by open. The utilization of RSA in this the framework makes the procedure safer. Presently the bank exchanges should be possible safely without agonizing over assailant gaining admittance to the database as the information will be in scrambled structure. \nRSA is the principal calculation referred to be reasonable for marking just as encryption, and one of the main incredible advances in broad daylight key cryptography. It is named for the three MIT mathematicians who created it — Ronald Rivest, Adi Shamir, and Leonard Adleman."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Advantages Of RSA:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="1. RSA is stronger than any other symmetric key algorithm. \n2. RSA is very high speed of encryption . \n3. Your sensitive details like your bank details are now secured using RSA. \n4. Now the bank transactions can be done securely without worrying about attacker getting access to the database as the data will be in encrypted form. \n5. RSA derives its security from the dif iculty of factoring large integers that are the product of two large prime numbers. Multiplying these two numbers is easy, but determining the original prime numbers from the total is considered infeasible due to the time it would take using even today's supercomputers. \n6. RSA has overcome the weakness of symmetric algorithm i.e. authenticity and confidentiality. \n7. Many protocols like secure shell, OpenPGP, S/MIME, and SSL/TLS rely on RSA for encryption and digital signature functions. \n8. RSA signature verification is one of the most commonly performed operations in network-connected systems."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
